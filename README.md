@@ -48,16 +48,6 @@ To help you understand the analysis performed in the project, refer to the table
 | SalePrice     | Sale Price                                   | $34,900 - $755,000              |
 
 
-
---- 
-## Agile Methodology - Development
-
-To facilitate the development process, I chose to implement the Kanban methodology. By utilizing a Kanban project board, I was able to manage and track the progress of different tasks and issues throughout the project. This approach helped me maintain focus and direction during the development phase.
-
-You can access the Kanban project board for this project [here](https://github.com/users/Vasi012/projects/4).
-
-![Kanban Table](/static/images/pp5.png)
-
 ---
 
 ## CRISP-DM: A Comprehensive Data Science Process
