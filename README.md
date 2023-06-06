@@ -62,7 +62,7 @@ You can access the Kanban project board for this project [here](https://github.c
 
 ## CRISP-DM: A Comprehensive Data Science Process
 
-![CRISP-DM](/static/images/CRISP-DM.png)
+![CRISP-DM](/static/images/crispdm.PNG)
 
 CRISP-DM, which stands for Cross Industry Standard Process for Data Mining, is a well-known process model that serves as the foundation for data science projects.
 
