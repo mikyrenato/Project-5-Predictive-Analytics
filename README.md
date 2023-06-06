@@ -248,3 +248,136 @@ For more details, please refer to the live app linked at the top of the readme/d
 
 ---
 
+## Dashboard Design
+
+### Dashboard Expectations
+
+The dashboard should include:
+
+Page 1: Quick project summary
+
+- A summary of the project dataset
+- Business requirements and my niece's project requirements
+- Dataset content guidelines
+
+Page 2: House Sale Price Study
+
+- Addressing business requirement 1
+- Data inspection of the housing sale dataset
+- Displaying the number of rows and columns in the data
+- Showing the first ten rows of the data
+- Displaying variables with the strongest correlation to the sale price and drawing conclusions
+- Individual plots showing the correlation between the sale price and each variable
+
+Page 3: Price Predictor
+
+- Addressing business requirement 2
+- Listing the details of my niece's houses and their predicted sale prices
+- Displaying the total sum of the predicted house sale prices
+- Providing interactive input and widgets for real-time house data to predict the sale price
+- A "Run predictive analysis" button to generate predictions based on the provided house data
+
+Page 4: Project Hypothesis and Validation
+
+- Describing each project hypothesis, its conclusion, and the validation method
+
+Page 5: ML: House Sale Price Prediction
+
+- Considerations and conclusions after training the ML pipeline
+- Displaying the ML pipeline steps
+- Listing the feature importance and plotting the best features
+- Evaluating the pipeline's performance and displaying relevant plots
+
+---
+
+## Unfixed Bugs
+
+- After conducting several tests, no bugs were found in the project.
+- However, there are some warnings related to updates in the pandas package, which may cause certain variables to not work as expected. These warnings arose because the template provided by Code Institute did not include an updated version of the pandas package. Although the project was checked before submission on February 2nd and works as expected, I will make sure to update these packages to fully optimize the project's performance.
+
+## Python Code Testing
+
+- The python code was tested using "python3 -m flake8 app_pages" in the GitPod terminal.
+- The flake8 tool was used, as the pep8 page was deactivated. The code passed the flake8 test, except for the "f-string is missing placeholders" warning.
+- Since the code works as expected, I chose to ignore these warnings.
+
+## Deployment
+
+The master branch of this repository was used for the deployed version of the application.
+
+### Using GitHub & Gitpod
+
+To deploy the Data application, I followed these steps:
+
+- I used the Code Institute Full Template by clicking the "Use This Template" button.
+- I added a repository name and description.
+- I created the repository from the template, which created a Gitpod workspace.
+- I committed my work often with clear messages using the commands:
+  - `git add .` to add all modified files to the staging area
+  - `git commit -m "A message explaining the commit"` to commit the changes to the local repository
+  - `git push` to push the committed changes to the GitHub repository
+
+### Forking the GitHub Repository
+
+To fork the GitHub repository, follow these steps:
+
+1. Log in to GitHub and locate the GitHub repository.
+2. Click the "Fork" button at the top of the repository page.
+3. You will now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+To make a local clone of the GitHub repository, follow these steps:
+
+1. Log in to GitHub and locate the GitHub repository.
+2. Click the "Clone or download" button.
+3. Copy the repository's URL under "Clone with HTTPS".
+4. Open the command line interface on your computer.
+5. Change the current working directory to the location where you want to clone the repository.
+6. Use the command `git clone` followed by the URL you copied in step 3.
+
+
+$ git clone [repository URL]
+
+
+
+## Deployment To Heroku
+
+- The App live link is: [HERE!](https://house-price-predictor-pp5.herokuapp.com/)
+- The project was deployed to Heroku using the following steps.
+1. Log in to Heroku and create an App
+2. At the Deploy tab, select GitHub as the deployment method.
+3. Select your repository name and click Search. Once it is found, click Connect.
+4. Select the branch you want to deploy, then click Deploy Branch.
+5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
+7. Press Enter to create your local clone.
+
+---
+## Conclusion
+
+- Dataset Acquisition: The project required a dataset, which was obtained from Kaggle. The dataset was carefully selected, used, and cleaned to ensure its suitability for the project.
+- Variable Table: Each variable has been organized into a comprehensive table, detailing their meanings and the units of measurement associated with each variable. The table can be found in the readme file.
+- Agile Methodology: The Agile methodology was adopted to facilitate clear project planning and management. By utilizing the Kanban board, all necessary project steps were identified, ensuring no crucial elements were overlooked. Each "issue" in the Kanban table represents a specific part of the project, and clicking on each issue provides a detailed explanation.
+- Business Requirements: The project's business requirements were developed using the CRISP-DM model. The primary objective was to assist my niece's business in accurately predicting housing prices.
+- Streamlit Dashboard: A user-friendly dashboard was created using Streamlit, allowing all relevant project details to be presented to stakeholders, particularly my niece. The dashboard was designed to be easily understandable even for individuals without a deep understanding of machine learning.
+- Deployment on Heroku: The project has been successfully deployed on Heroku. Please refer to the above steps for instructions on deployment.
+
+Overall, the project can be deemed a success as all the requirements have been fulfilled, and my niece is satisfied with the predicted prices. However, considering the impact of inflation, it was determined that a 10.5% increase should be added to the house prices. It's important to note that this percentage may vary depending on future changes in inflation rates.
+
+---
+
+## Credits & Content Used
+
+- Project Content: The project's content draws from the knowledge gained through walk-through projects provided by Code Institute. While there may be similarities to the content of the "Churnometer" walk-through project, it has been adapted and modified accordingly.
+- Bug Fixing & Issue Resolution: During the project, various bugs and issues arose, which were resolved with the help of resources like Stack Overflow.
+- Deep Learning Exploration: A more comprehensive understanding of deep machine learning terms was achieved through in-depth exploration of various resources, including YouTube.
+- Readme File: The readme file was created using the Code Institute template, providing a structured and organized format.
+- Inspiration: Certain elements presented in the readme file were inspired by the work of Van-essa (https://github.com/van-essa/heritage-housing-issues#readme).
+- Mentor Guidance: I would like to express my gratitude to my mentors, who provided guidance throughout the project, ensuring the implementation of best practices.
+
+## Acknowledgements
+
+I would like to extend my heartfelt appreciation to Code Institute for offering this exceptional course. The learning experience has been truly enjoyable and has transformed my perspective from considering coding as mere gibberish to actually understanding and working with it. I am immensely grateful to both my mentors, Harry and ..., for their continuous support throughout the course.
+
+---
+
