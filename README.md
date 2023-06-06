@@ -93,3 +93,22 @@ To facilitate this task, my customer has conducted extensive research and identi
 
 ---
 
+## Hypothesis and Validation
+
+
+1. Hypothesis One:
+   - Assumption: The price of houses is positively correlated with their surface area measured in square feet.
+   - Validation Approach: Perform a correlation study to examine the relationship between house prices and surface area.
+
+2. Hypothesis Two:
+   - Assumption: Houses with the same usable surface area but built more recently have a higher price than older-built homes.
+   - Validation Approach: Conduct a correlation study to investigate the relationship between house prices and the year they were built.
+
+3. Hypothesis Three:
+   - Assumption: Houses with the same usable surface area, built in a recent year, but remodeled recently, have a higher price compared to houses built in the same year but not remodeled.
+   - Validation Approach: Perform a correlation study to analyze the relationship between house prices and remodeling status.
+
+4. Hypothesis Four:
+   - Assumption: Houses with similar surface area but higher quality materials and condition scores tend to have a higher sales price.
+   - Validation Approach: Conduct a correlation study to assess the relationship between house prices and material/condition scores.
+
