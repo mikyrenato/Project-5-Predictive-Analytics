@@ -123,27 +123,27 @@ List the business requirements and rationale to map them to the data visualizati
 
 After conducting our study, we realized that the features that impact the price are:
 
-![Features Impacting Price](/static/images/importancefeat.png)
+![Features Impacting Price](images/1.PNG)
 
 We can take a closer look at each:
 
 - GrLivArea (Above grade (ground) living area square feet)
-  ![GrLivArea](/static/images/GrLivArea.png)
+  ![GrLivArea](images/grliv.PNG)
 
 - GarageArea (Size of garage in square feet)
-  ![GarageArea](/static/images/garageArea.png)
+  ![GarageArea](images/garage.PNG)
 
 - YearBuilt (Original construction date)
-  ![YearBuilt](/static/images/YearBuilt.png)
+  ![YearBuilt](images/yearbuilt.PNG)
 
 - 1stFlrSF (First Floor square feet)
-  ![1stFlrSF](/static/images/train.png)
+  ![1stFlrSF](images/1stfl.PNG)
 
 - OverallQual (Rates the overall material and finish of the house)
-  ![OverallQual](/static/images/OverallQual.png)
+  ![OverallQual](images/overall.PNG)
 
 - TotalBsmtSF (Total square feet of basement area)
-  ![TotalBsmtSF](/static/images/TotalBsmtSF.png)
+  ![TotalBsmtSF](images/basement.PNG)
 
 For more details, please refer to the live app linked at the top of the readme/deployment.
 
@@ -162,11 +162,11 @@ For more details, please refer to the live app linked at the top of the readme/d
 
 - My client wanted to find out what are the prices for the houses. 
 
-![6predictions](/static/images/nieceprediction.png)
+![6predictions](images/outcome.PNG)
 
 - In the feature she could use the added tool to be able to predict pricing for houses by imputing her own inputs.This can be located on the deployed site.
 
-![ownimputs](/static/images/trypredict.png)
+![ownimputs](images/predictor.PNG)
 
 
 ---
@@ -230,11 +230,11 @@ For more details, please refer to the live app linked at the top of the readme/d
 
 - After the completion of this project, we were able to achieve the agreed-upon R2 score with my niece, which was initially set to be above 0.75.
 
-![R2 score](/static/images/scoretrainandtest.png)
+![R2 score](images/modelevaluation.PNG)
 
 - The training and test sets were conducted in a way that they closely match each other.
 
-![Train and test sets](/static/images/graftraintest.png)
+![Train and test sets](images/train.PNG)
 
 ---
 
