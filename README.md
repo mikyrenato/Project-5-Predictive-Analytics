@@ -112,3 +112,139 @@ To facilitate this task, my customer has conducted extensive research and identi
    - Assumption: Houses with similar surface area but higher quality materials and condition scores tend to have a higher sales price.
    - Validation Approach: Conduct a correlation study to assess the relationship between house prices and material/condition scores.
 
+
+---
+
+## Rationale to map the business requirements to the Data Visualizations and ML tasks
+
+List the business requirements and rationale to map them to the data visualizations and ML tasks.
+
+---
+
+### Business Requirement 1 – Data Visualization and Correlation Study
+
+- As a data analyst, I need to visualize the data related to the house records to understand how each attribute influences the sale price.
+- Conduct a correlation study (Pearson and Spearman) to determine the correlation between variables and the sale price.
+	- Perform correlation and/or PPS studies to investigate the most relevant variables correlated to the sale price.
+- Plot the main variables against the sale price to visualize insights on how the house attributes correlate with the sale price.
+- Summarize the insights obtained from visualizing these variables against the sale price.
+
+## Outcome after predicting pricing
+
+After conducting our study, we realized that the features that impact the price are:
+
+![Features Impacting Price](/static/images/importancefeat.png)
+
+We can take a closer look at each:
+
+- GrLivArea (Above grade (ground) living area square feet)
+  ![GrLivArea](/static/images/GrLivArea.png)
+
+- GarageArea (Size of garage in square feet)
+  ![GarageArea](/static/images/garageArea.png)
+
+- YearBuilt (Original construction date)
+  ![YearBuilt](/static/images/YearBuilt.png)
+
+- 1stFlrSF (First Floor square feet)
+  ![1stFlrSF](/static/images/train.png)
+
+- OverallQual (Rates the overall material and finish of the house)
+  ![OverallQual](/static/images/OverallQual.png)
+
+- TotalBsmtSF (Total square feet of basement area)
+  ![TotalBsmtSF](/static/images/TotalBsmtSF.png)
+
+For more details, please refer to the live app linked at the top of the readme/deployment.
+
+### Business Requirement 2
+
+- As a data analyst, I need to predict the sale price of the houses.
+- Build an ML model to predict the house prices for the 6 newly refurbished houses my niece plans to sell.
+- Ensure that the ML system can reliably predict the summed sale price of the 6 houses.
+- Use either conventional ML or Neural Networks to establish the relationships between the features and the target variable.
+- Consider changing the ML task from regression to classification if a valid rationale exists.
+- If using conventional ML with libraries like scikit-learn, perform extensive hyperparameter optimization for the chosen algorithm.
+
+
+
+## Outcome after price prediction.
+
+- My client wanted to find out what are the prices for the houses. 
+
+![6predictions](/static/images/nieceprediction.png)
+
+- In the feature she could use the added tool to be able to predict pricing for houses by imputing her own inputs.This can be located on the deployed site.
+
+![ownimputs](/static/images/trypredict.png)
+
+
+---
+
+## ML Business Case
+
+### Business Case Assessment
+
+1. **What are the business requirements?**
+
+### Business Requirement 1:
+
+- The primary objective is to analyze the correlation between house attributes and sale prices.
+- It is important to visualize the correlation variables in relation to the sale price. (This will be further discussed in business requirement 2).
+- The ability to predict the prices of newly refurbished houses and potential future house purchases is also desired.
+
+2. **Can the above business requirements be addressed with conventional data analysis?**
+
+- Yes, conventional data analysis techniques can be used to investigate the correlation between house attributes and sale prices.
+
+3. **Does the project require a dashboard or an API endpoint?**
+
+- To provide the best assistance to my niece, I want to develop a project that can be revisited and reused in the future.
+
+4. **What would define a successful outcome for the project?**
+
+- A successful outcome would include a comprehensive study highlighting the most relevant variables correlated to the sale price.
+- The ability to predict the prices of other houses in the region, including the 6 newly refurbished houses, is also important.
+
+5. **As a data analyst, I would like to break down the project into epics and user stories.**
+
+- Data gathering from a public source and initial data collection: [DataCollection.ipynb]
+- Data visualization, cleaning, and preparation: [SalePriceStudy.ipynb]
+- Model training, optimization, and validation: [FeatureEngineering.ipynb]
+- Dashboard planning, design, and development
+- Dashboard deployment and release
+
+6. **Are there any ethical or privacy concerns?**
+
+- Since the dataset is obtained from a public source, there are no ethical or privacy concerns for my niece.
+
+7. **Does the data suggest a particular model?**
+
+- The data suggests the use of a regression model, where the target variable is the sale price.
+
+8. **What are the model inputs and intended outputs?**
+
+- The sale price is influenced by the house attribute information provided above, and the intended output is the predicted sale price.
+
+9. **What are the criteria for the performance goal of the predictions?**
+
+- My niece and I have agreed that achieving an R2 score of at least 0.75 on both the training and test sets would be considered ideal.
+
+10. **How would my niece benefit from this project?**
+
+- My client will be able to maximize the sale prices of the newly refurbished houses.
+- Additionally, he can leverage the project in the future to sell other houses through his small real estate agency.
+
+
+### Outcome after price prediction:
+
+- After the completion of this project, we were able to achieve the agreed-upon R2 score with my niece, which was initially set to be above 0.75.
+
+![R2 score](/static/images/scoretrainandtest.png)
+
+- The training and test sets were conducted in a way that they closely match each other.
+
+![Train and test sets](/static/images/graftraintest.png)
+
+---
+
