@@ -25,8 +25,8 @@ def page_price_predictor_body():
 
     st.write("### Sale Price Prediction for the refurbished houses:")
     st.success(
-        f"* My niece is interested in predicting the house sales price"
-        f" for her 6 newly refurbished houses, and any other house "
+        f"* My friend is interested in predicting the house sales price"
+        f" for his 6 newly refurbished houses, and any other house "
         f"in Ames, Iowa."
         )
     st.write("---")

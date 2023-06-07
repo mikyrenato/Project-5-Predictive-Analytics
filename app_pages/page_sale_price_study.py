@@ -20,9 +20,9 @@ def page_sale_price_study_body():
 
     st.write("### House Sale Price Study")
     st.info(
-        f"My client is interested in discovering how the house attributes "
+        f"My friend is interested in discovering how the house attributes "
         f"correlate with the sale price.\n"
-        f"* Therefore, my client expects data visualizations of the "
+        f"* Therefore, my friend expects data visualizations of the "
         f"correlated variables against the sale price to show that."
         )
 
