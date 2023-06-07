@@ -4,7 +4,6 @@ This project is part of the Full Stack Developer course provided by Code Institu
 
 The project aims to provide a step-by-step walkthrough of the entire process, from data cleaning to feature engineering. The content has been personalized to offer a welcoming experience and a comprehensive understanding of each step and its implementation.
 
-If you need assistance or get confused at any point, refer back to this README file for important information.
 
 **Live Application:** [House Price Predictor](https://house-price-predictor-pp5.herokuapp.com/)
 
@@ -12,7 +11,6 @@ If you need assistance or get confused at any point, refer back to this README f
 
 The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/). Kaggle is an online community platform for data scientists and machine learning enthusiasts that offers collaboration, dataset publishing, GPU integrated notebooks, and data science challenges.
 
-For this project, a fictional user story has been created. However, the predictive analytics techniques applied can be utilized in real-world projects, such as those related to the housing market in Ames.
 
 The dataset, found on Kaggle under the Code Institute account, consists of 1,460 rows (including variable names) representing housing records from Ames, Iowa, USA. It includes various house profiles, such as floor areas, basements, garages, kitchens, lots, porches, wood decks, and the year built, among others. The dataset covers houses built between 1872 and 2010, along with their respective sale prices.
 
@@ -60,26 +58,23 @@ The CRISP-DM model consists of six sequential phases:
 
 1. Business Understanding: Understand the objectives and requirements of the business.
 2. Data Understanding: Gain insights into the available data and assess its quality and relevance.
-   - Remember, "garbage in, garbage out" - it's crucial to ensure data cleanliness.
 3. Data Preparation: Organize and preprocess the data to make it suitable for modeling.
 4. Modeling: Apply appropriate modeling techniques to extract insights and patterns from the data.
 5. Evaluation: Evaluate the performance of different models and select the one that best meets the business's objectives.
 6. Deployment: Deploy the chosen model and make it accessible to relevant stakeholders.
-
-If you would like to explore each of the above phases in more detail and learn how to effectively utilize them, please refer to the [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/) resource.
 
 ---
 
 ## Business Requirements.
 
 
-I am currently enrolled in the Full Stack Developer course offered by Code Institute. Throughout the course, I have gained knowledge and practical experience in various areas, including Machine Learning. This valuable skillset will greatly benefit me in my future career as a Data Scientist.
+I am currently enrolled in the Full Stack Developer course offered by Code Institute. Throughout the course, I have gained knowledge and practical experience in various areas, including Machine Learning. This valuable skillset will greatly benefit me in my current career as a Senior Business Analyst.
 
-Recently, a customer of mine, who resides in the United States, embarked on a venture in the real estate industry. Her vision entails purchasing six houses located in Ames, a small town in Iowa. With its strong and stable economy, coupled with a vibrant cultural environment and a population of over 89,540 residents, my customer firmly believes that investing in this area will yield significant returns. Her plan involves acquiring older properties, renovating them, and subsequently selling them at higher prices.
+Recently, a friend of mine, who resides in the United States, embarked on a venture in the real estate industry. Her vision entails purchasing six houses located in Ames, a small town in Iowa. With its strong and stable economy, coupled with a vibrant cultural environment and a population of over 89,540 residents, my friend firmly believes that investing in this area will yield significant returns. Her plan involves acquiring older properties, renovating them, and subsequently selling them at higher prices.
 
-Although my customer possesses a solid understanding of the average house prices in this region, she recognizes the importance of accurate predictions to ensure the success of her investment. Consequently, she approached me, her uncle, knowing that I possess expertise in machine learning. By leveraging the power of this technology, I can provide her with precise price predictions for each of the refurbished houses, eliminating the risk of unreliable appraisals.
+Although my friend possesses a solid understanding of the average house prices in this region, she recognizes the importance of accurate predictions to ensure the success of his investment. Consequently, he approached me, knowing that I possess expertise in machine learning. By leveraging the power of this technology, I can provide him with precise price predictions for each of the refurbished houses, eliminating the risk of unreliable appraisals.
 
-To facilitate this task, my customer has conducted extensive research and identified a publicly available dataset containing historical records of sold houses. She will share this dataset with me, enabling me to create a robust prediction model that aligns with her business goals.
+To facilitate this task, my friend has conducted extensive research and identified a publicly available dataset containing historical records of sold houses. He will share this dataset with me, enabling me to create a robust prediction model that aligns with her business goals.
 
 ---
 
