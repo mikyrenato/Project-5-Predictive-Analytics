@@ -30,7 +30,7 @@ def page_predict_sale_price_body():
         f"that. \n"
         f"* Feature selection achieved an R2 Score: 0.97 on the train set and "
         f"an R2 Score: 0.78 on the test set.\n"
-        f"* My niece has required an R2 Score of 0.75+.\n"
+        f"* My friend has required an R2 Score of 0.75+.\n"
         )
     st.write("---")
 
