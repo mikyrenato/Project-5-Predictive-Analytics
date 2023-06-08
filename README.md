@@ -280,9 +280,9 @@ Page 5: ML: House Sale Price Prediction
 ## Python Code Testing
 
 - The python code was tested using "python3 -m flake8 app_pages" in the GitPod terminal.
-Before
+- Before
 ![testb](images/testb.PNG)
-After
+- After
 ![testa](images/testa.PNG)
 
 
