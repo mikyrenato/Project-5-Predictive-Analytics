@@ -1,4 +1,4 @@
-# House Pricing (PP5)
+# House Pricing Prediction
 
 This project is part of the Full Stack Developer course provided by Code Institute, specifically the Predictive Analytics path. It is the final milestone project of the course, focusing on working with data.
 
