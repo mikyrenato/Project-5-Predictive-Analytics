@@ -19,5 +19,3 @@ protobuf
 ipywidgets
 
 ydata-profiling
-pandas-profiling
-dtale
