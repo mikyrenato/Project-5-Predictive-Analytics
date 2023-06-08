@@ -348,14 +348,13 @@ Overall, the project can be deemed a success as all the requirements have been f
 
 - Project Content: The project's content draws from the knowledge gained through walk-through projects provided by Code Institute. While there may be similarities to the content of the "Churnometer" walk-through project, it has been adapted and modified accordingly.
 - Bug Fixing & Issue Resolution: During the project, various bugs and issues arose, which were resolved with the help of resources like Stack Overflow, ChatGPT.
-- Deep Learning Exploration: A more comprehensive understanding of deep machine learning terms was achieved through in-depth exploration of various resources, including YouTube.
 - Readme File: The readme file was created using the Code Institute template, providing a structured and organized format.
-- Inspiration: Certain elements presented in the project and readme file were inspired by the work of (https://github.com/).
+- Inspiration: Certain elements presented in the project and readme file were inspired from this [repository!](https://github.com/Vasi012/PP5-Predictive-Analysis).
 - Mentor Guidance: I would like to express my gratitude to my mentors, who provided guidance throughout the project, ensuring the implementation of best practices.
 
 ## Acknowledgements
 
-I would like to extend my heartfelt appreciation to Code Institute for offering this exceptional course. The learning experience has been truly enjoyable and has transformed my perspective from considering coding as mere gibberish to actually understanding and working with it. I am immensely grateful to both my mentors, Harry and ..., for their continuous support throughout the course.
+I would like to extend my heartfelt appreciation to Code Institute for offering this exceptional course. The learning experience has been truly enjoyable and has transformed my perspective from considering coding as mere gibberish to actually understanding and working with it. I am immensely grateful to both my mentors, Harry and Mo Shami, for their continuous support throughout the course.
 
 ---
 
