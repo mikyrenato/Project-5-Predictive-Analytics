@@ -4,6 +4,8 @@ This project is part of the Full Stack Developer course provided by Code Institu
 
 The project aims to provide a step-by-step walkthrough of the entire process, from data cleaning to feature engineering. The content has been personalized to offer a welcoming experience and a comprehensive understanding of each step and its implementation.
 
+![house](images/house.PNG)
+
 
 **Live Application:** [House Price Predictor](https://project-5-predictive-analytics.herokuapp.com/)
 
@@ -278,7 +280,11 @@ Page 5: ML: House Sale Price Prediction
 ## Python Code Testing
 
 - The python code was tested using "python3 -m flake8 app_pages" in the GitPod terminal.
-- The flake8 tool was used, as the pep8 page was deactivated.
+Before
+![testb](images/testb.PNG)
+After
+![testa](images/testa.PNG)
+
 
 ## Deployment
 
