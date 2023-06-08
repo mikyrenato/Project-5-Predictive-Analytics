@@ -51,7 +51,7 @@ def page_summary_body():
     st.warning(
         f"* For additional information, please visit and **read** the "
         f"[Project README file.]"
-        f"(https://github.com/mikyrenato/5th-Project#readme)"
+        f"(https://github.com/mikyrenato/Project-5-Predictive-Analytics/blob/main/README.md)"
         )
 
     """Dataset guidelines"""
