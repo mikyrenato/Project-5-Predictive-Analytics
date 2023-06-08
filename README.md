@@ -5,7 +5,7 @@ This project is part of the Full Stack Developer course provided by Code Institu
 The project aims to provide a step-by-step walkthrough of the entire process, from data cleaning to feature engineering. The content has been personalized to offer a welcoming experience and a comprehensive understanding of each step and its implementation.
 
 
-**Live Application:** [House Price Predictor](https://house-price-predictor-pp5.herokuapp.com/)
+**Live Application:** [House Price Predictor](https://project-5-predictive-analytics.herokuapp.com/)
 
 ## Dataset
 
@@ -322,7 +322,7 @@ $ git clone [repository URL]
 
 ## Deployment To Heroku
 
-- The App live link is: [HERE!](https://house-price-predictor-pp5.herokuapp.com/)
+- The App live link is: [HERE!](https://project-5-predictive-analytics.herokuapp.com/)
 - The project was deployed to Heroku using the following steps.
 1. Log in to Heroku and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
