@@ -159,7 +159,7 @@ For more details, please refer to the live app linked at the top of the readme/d
 
 - My friend wanted to find out what are the prices for the houses. 
 
-![6predictions](images/outcome.PNG)
+![6predictions](images/6.PNG)
 
 - In the feature he could use the added tool to be able to predict pricing for houses by inputing his own inputs.This can be located at the bottom of the Price Predictor Page .
 
