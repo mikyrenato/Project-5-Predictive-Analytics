@@ -360,7 +360,7 @@ Overall, the project can be deemed a success as all the requirements have been f
 
 ## Acknowledgements
 
-I would like to extend my heartfelt appreciation to Code Institute for offering this exceptional course. The learning experience has been truly enjoyable and has transformed my perspective from considering coding as mere gibberish to actually understanding and working with it. I am immensely grateful to both my mentors, Harry and Mo Shami, for their continuous support throughout the course.
+I would like to extend my heartfelt appreciation to Code Institute for offering this exceptional course. The learning experience has been truly enjoyable and has transformed my perspective from considering coding as mere gibberish to actually understanding and working with it. I am immensely grateful to both my mentors, Harry Dhillon and Mo Shami, for their continuous support throughout the course.
 
 ---
 
