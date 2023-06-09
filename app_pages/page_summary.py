@@ -35,7 +35,7 @@ def page_summary_body():
         "variables against the sale price.\n"
         "* 2 - My friend is interested in predicting the house sales price "
         "for his refurbished houses, "
-        "and any other house in Ames, Iowa, that she will consider to "
+        "and any other house in Ames, Iowa, that he will consider to "
         "buy or sell in the future."
     )
 
