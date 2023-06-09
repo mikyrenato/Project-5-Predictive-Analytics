@@ -26,7 +26,16 @@ def page_price_predictor_body():
         "* Below are the details of the refurbished "
         "houses and their respective sale price predictions."
     )
-    total_price = predict_refurbished_house_price(price_pipe, price_features)
+
+    # Add a button to choose between loading all houses or only the first 6 houses
+    load_all_houses = st.button("Load All Houses")
+    if load_all_houses:
+        num_houses = None
+    else:
+        num_houses = 6
+
+    total_price = predict_refurbished_house_price(price_pipe, price_features, num_houses)
+
     total_price = "%.2f" % total_price
     st.success(
         f"The sum total sale price for all your "
@@ -64,8 +73,12 @@ def page_price_predictor_body():
         st.success(statement)
 
 
-def predict_refurbished_house_price(price_pipe, price_features):
+def predict_refurbished_house_price(price_pipe, price_features, num_houses=None):
     refurbished = load_clean_data("refurbished")
+    
+    if num_houses is not None:
+        refurbished = refurbished.head(num_houses)
+        
     row_count = len(refurbished)
     refurbished.index = range(1, row_count + 1)
     total_price = 0
