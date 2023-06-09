@@ -20,17 +20,17 @@ def page_sale_price_study_body():
 
     st.write("### House Sale Price Study")
     st.info(
-        f"My friend is interested in discovering how the house attributes "
-        f"correlate with the sale price.\n"
-        f"* Therefore, my friend expects data visualizations of the "
-        f"correlated variables against the sale price to show that."
-        )
+        "My friend is interested in discovering how the house attributes "
+        "correlate with the sale price.\n"
+        "Therefore, my friend expects data visualizations of the "
+        "correlated variables against the sale price to show that."
+    )
 
     # inspect data
     if st.checkbox("Inspect House Price Data:"):
         st.write(
             f"* The dataset has {df.shape[0]} rows and {df.shape[1]} columns, "
-            f"the first 10 rows are displayed below.")
+            "the first 10 rows are displayed below.")
 
         st.write(df.head(10))
 
@@ -38,31 +38,31 @@ def page_sale_price_study_body():
 
     # Correlation Study Summary
     st.success(
-        f"* Correlation studies were conducted, using the Pearson and "
-        f"Spearman methods "
-        f"to better understand how the variables correlate to the "
-        f"sale price.\n"
-        f"* The most correlated variable are: \n"
-        f"  * **1stFlrSF, GarageArea, GrLivArea, OverallQual, "
-        f"TotalBsmtSF, YearBuilt**"
+        "* Correlation studies were conducted, using the Pearson and "
+        "Spearman methods "
+        "to better understand how the variables correlate to the "
+        "sale price.\n"
+        "* The most correlated variable are: \n"
+        "  * **1stFlrSF, GarageArea, GrLivArea, OverallQual, "
+        "TotalBsmtSF, YearBuilt**"
     )
 
     # Text based on "sale price study" notebook
     #  "Conclusions and Next steps" section
     st.info(
-        f"### The correlations and plots interpretation converge.\n"
-        f"The following are the variables isolated in the"
-        f" correlation study:\n"
-        f"* 1stFlrSF: First Floor square feet.\n"
-        f"* GarageArea: Size of garage in square feet.\n"
-        f"* GrLivArea: Above grade (ground) living area square feet.\n"
-        f"* OverallQual: Rates the overall quality of the material "
-        f"and finish of the house when constructed / refurbished.\n"
-        f"* TotalBsmtSF: Total square feet of basement area.\n"
-        f"* YearBuilt: Original construction date (1872 to 2010).\n\n"
-        f"The plots show that the variables isolated in the "
-        f" correlation study, do indeed have a strong correlation and "
-        f" possibly strong predictive power for Sale Price for these houses.\n"
+        "### The correlations and plots interpretation converge.\n"
+        "The following are the variables isolated in the"
+        " correlation study:\n"
+        "* 1stFlrSF: First Floor square feet.\n"
+        "* GarageArea: Size of garage in square feet.\n"
+        "* GrLivArea: Above grade (ground) living area square feet.\n"
+        "* OverallQual: Rates the overall quality of the material "
+        "and finish of the house when constructed / refurbished.\n"
+        "* TotalBsmtSF: Total square feet of basement area.\n"
+        "* YearBuilt: Original construction date (1872 to 2010).\n\n"
+        "The plots show that the variables isolated in the "
+        " correlation study, do indeed have a strong correlation and "
+        " possibly strong predictive power for Sale Price for these houses.\n"
     )
 
     # Code copied from "sale price study" notebook
@@ -89,5 +89,5 @@ def plot_numerical(df, col, target_var):
 
     fig, axes = plt.subplots(figsize=(15, 8))
     sns.regplot(data=df, x=col, y=target_var)
-    plt.title(f"{col}", fontsize=20)
+    plt.title(col, fontsize=20)
     st.pyplot(fig)  # st.pyplot() renders image, in notebook is plt.show()
