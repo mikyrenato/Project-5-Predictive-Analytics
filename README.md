@@ -161,9 +161,9 @@ For more details, please refer to the live app linked at the top of the readme/d
 
 ![6predictions](images/outcome.PNG)
 
-- In the feature he could use the added tool to be able to predict pricing for houses by imputing his own inputs.This can be located on the deployed site.
+- In the feature he could use the added tool to be able to predict pricing for houses by inputing his own inputs.This can be located at the bottom of the Price Predictor Page .
 
-![ownimputs](images/predictor.PNG)
+![ownimputs](images/pred.PNG)
 
 
 ---
