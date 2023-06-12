@@ -110,7 +110,7 @@ List the business requirements and rationale to map them to the data visualizati
 
 ### Business Requirement 1 – Data Visualization and Correlation Study
 
-# Epics:
+### Epics:
 
 1 Data Visualization Epic
    - As a data analyst, I want to visualize the data related to the house records to understand how each attribute influences the sale price.
@@ -119,7 +119,7 @@ List the business requirements and rationale to map them to the data visualizati
    - As a data analyst, I need to conduct a correlation study (Pearson and Spearman) to determine the correlation between variables and the sale price.
 
 
-# User Stories:
+### User Stories:
 
 1 Visualizing Data for Analysis
    - As a data analyst, I want to have a visual representation of the house records dataset, including attributes and the sale price, to gain a better understanding of the data.
