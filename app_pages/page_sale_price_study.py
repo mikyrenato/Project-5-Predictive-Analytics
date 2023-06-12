@@ -9,12 +9,10 @@ sns.set_style("whitegrid")
 
 def page_sale_price_study_body():
 
-    # load data
+
     df = load_housing_price_data()
 
-    # hard copied from sale price study notebook
-    # The 5 variables that correlate to Sale Price
-    # These variables will be tested on strength to predicting Sale Price
+
     corr_var_list = ['1stFlrSF', 'GarageArea', 'GrLivArea',
                      'OverallQual', 'TotalBsmtSF', 'YearBuilt']
 
@@ -26,7 +24,7 @@ def page_sale_price_study_body():
         "correlated variables against the sale price to show that."
     )
 
-    # inspect data
+
     if st.checkbox("Inspect House Price Data:"):
         st.write(
             f"* The dataset has {df.shape[0]} rows and {df.shape[1]} columns, "
@@ -36,7 +34,7 @@ def page_sale_price_study_body():
 
     st.write("---")
 
-    # Correlation Study Summary
+
     st.success(
         "* Correlation studies were conducted, using the Pearson and "
         "Spearman methods "
@@ -47,8 +45,7 @@ def page_sale_price_study_body():
         "TotalBsmtSF, YearBuilt**"
     )
 
-    # Text based on "sale price study" notebook
-    #  "Conclusions and Next steps" section
+
     st.info(
         "### The correlations and plots interpretation converge.\n"
         "The following are the variables isolated in the"
@@ -65,18 +62,16 @@ def page_sale_price_study_body():
         " possibly strong predictive power for Sale Price for these houses.\n"
     )
 
-    # Code copied from "sale price study" notebook
-    # "EDA on the Correlated Variable List" section
+
     df_eda = df.filter(corr_var_list + ['SalePrice'])
 
-    # Individual plots per variable
+
     if st.checkbox("Variable correlation to Sale Price"):
         variable_correlation_to_sale_price(df_eda, corr_var_list)
 
 
 def variable_correlation_to_sale_price(df_eda, corr_var_list):
-    # function created using "sale price study" notebook
-    # "Visualize variable correlation to Sale Price" section
+
     target_var = 'SalePrice'
     for col in corr_var_list:
         plot_numerical(df_eda, col, target_var)
@@ -84,10 +79,9 @@ def variable_correlation_to_sale_price(df_eda, corr_var_list):
 
 
 def plot_numerical(df, col, target_var):
-    # function created using "sale price study" notebook
-    # "Visualize variable correlation to Sale Price" section
+
 
     fig, axes = plt.subplots(figsize=(15, 8))
     sns.regplot(data=df, x=col, y=target_var)
     plt.title(col, fontsize=20)
-    st.pyplot(fig)  # st.pyplot() renders image, in notebook is plt.show()
+    st.pyplot(fig)
