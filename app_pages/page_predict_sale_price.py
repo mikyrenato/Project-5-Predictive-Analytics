@@ -6,7 +6,7 @@ from src.eval_pipeline_perf import regression_performance
 
 
 def page_predict_sale_price_body():
-    # load sale price pipeline files
+
     ver = 'v2'
     path = f"outputs/ml_pipeline/predict_saleprice/{ver}"
     sale_price_pipe = load_pkl_file(f"{path}/best_regressor_pipeline.pkl")
@@ -18,7 +18,7 @@ def page_predict_sale_price_body():
     y_test = pd.read_csv(f"{path}/y_test.csv")
 
     st.write("### ML Pipeline: Predict House Sale Price")
-    # display pipeline training summary conclusions
+
     st.warning(
         "The Regressor model has been chosen to predict the sale price "
         "for a given property.\n"
@@ -32,19 +32,19 @@ def page_predict_sale_price_body():
     )
     st.write("---")
 
-    # show pipeline steps
+
     st.write("### ML pipeline to predict sale price")
     st.info(sale_price_pipe)
     st.write("---")
 
-    # show best features
+  
     st.write("### The features used to train the model and their importance:")
     feat_str = ', '.join(feat_importance['Feature'].sort_values())
     st.write(feat_str)
     st.image(feat_importance_plot)
     st.write("---")
 
-    # evaluate pipeline performance
+ 
     st.write("### Evaluating the Pipeline Performance.")
     regression_performance(X_train, y_train, X_test, y_test, sale_price_pipe)
     regr_eval_plots = plt.imread(f"{path}/regression_evaluation_plots.png")
