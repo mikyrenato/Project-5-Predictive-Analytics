@@ -290,6 +290,7 @@ Page 3: Price Predictor
 
 - Addressing business requirement 2
 - Listing the details of my friend's houses and his predicted sale prices
+- A button to display predicted house prices for all houses
 - Displaying the total sum of the predicted house sale prices
 - Providing interactive input and widgets for real-time house data to predict the sale price
 - A "Run predictive analysis" button to generate predictions based on the provided house data
