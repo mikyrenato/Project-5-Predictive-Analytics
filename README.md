@@ -355,7 +355,7 @@ Overall, the project can be deemed a success as all the requirements have been f
 - Project Content: The project's content draws from the knowledge gained through walk-through projects provided by Code Institute. While there may be similarities to the content of the "Churnometer" walk-through project, it has been adapted and modified accordingly.
 - Bug Fixing & Issue Resolution: During the project, various bugs and issues arose, which were resolved with the help of resources like Stack Overflow, ChatGPT.
 - Readme File: The readme file was created using the Code Institute template, providing a structured and organized format.
-- Inspiration: Certain elements presented in the project and readme file were inspired from this [repository](https://github.com/Vasi012/PP5-Predictive-Analysis).
+- Inspiration: Certain elements presented in the project and readme file were inspired from this 2 repositories: [repository 1](https://github.com/Vasi012/PP5-Predictive-Analysis) and [repository 2](https://github.com/Amareteklay/heritage-housing-issues).
 - Mentor Guidance: I would like to express my gratitude to my mentors, who provided guidance throughout the project, ensuring the implementation of best practices.
 
 ## Acknowledgements
