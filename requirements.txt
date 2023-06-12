@@ -18,3 +18,4 @@ protobuf
 ipywidgets
 
 ydata-profiling
+tqdm
