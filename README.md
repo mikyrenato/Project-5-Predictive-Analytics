@@ -110,11 +110,32 @@ List the business requirements and rationale to map them to the data visualizati
 
 ### Business Requirement 1 – Data Visualization and Correlation Study
 
-- As a data analyst, I need to visualize the data related to the house records to understand how each attribute influences the sale price.
-- Conduct a correlation study (Pearson and Spearman) to determine the correlation between variables and the sale price.
-	- Perform correlation and/or PPS studies to investigate the most relevant variables correlated to the sale price.
-- Plot the main variables against the sale price to visualize insights on how the house attributes correlate with the sale price.
-- Summarize the insights obtained from visualizing these variables against the sale price.
+# Epics:
+
+1 Data Visualization Epic
+   - As a data analyst, I want to visualize the data related to the house records to understand how each attribute influences the sale price.
+
+2 Correlation Study Epic
+   - As a data analyst, I need to conduct a correlation study (Pearson and Spearman) to determine the correlation between variables and the sale price.
+
+
+# User Stories:
+
+1 Visualizing Data for Analysis
+   - As a data analyst, I want to have a visual representation of the house records dataset, including attributes and the sale price, to gain a better understanding of the data.
+
+2 Performing Correlation Study
+   - As a data analyst, I want to perform a correlation study using the Pearson and Spearman correlation coefficients to measure the strength and direction of the relationship between each attribute and the sale price.
+
+3 Investigating Relevant Variables
+   - As a data analyst, I want to conduct correlation and/or Predictive Power Score (PPS) studies to identify the most relevant variables that are correlated with the sale price. This will help me focus on the key attributes influencing the sale price.
+
+4 Visualizing Attribute-Sale Price Relationship
+   - As a data analyst, I want to plot the main variables against the sale price to visualize how the house attributes correlate with the sale price. This visualization will provide insights into the relationship between different attributes and the sale price.
+
+5 Summarizing Insights from Visualization
+   - As a data analyst, I want to summarize the insights obtained from visualizing the variables against the sale price. This summary will help stakeholders and decision-makers understand the key factors that influence the sale price of houses and make informed decisions based on the findings.
+
 
 ## Outcome after predicting pricing
 
