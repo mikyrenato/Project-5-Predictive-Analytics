@@ -167,12 +167,22 @@ For more details, please refer to the live app linked at the top of the readme/d
 
 ### Business Requirement 2
 
-- As a data analyst, I need to predict the sale price of the houses.
-- Build an ML model to predict the house prices for the 6 newly refurbished houses my friend plans to sell.
-- Ensure that the ML system can reliably predict the summed sale price of the 6 houses.
-- Use either conventional ML or Neural Networks to establish the relationships between the features and the target variable.
-- Consider changing the ML task from regression to classification if a valid rationale exists.
-- If using conventional ML with libraries like scikit-learn, perform extensive hyperparameter optimization for the chosen algorithm.
+### Epic: House Price Prediction
+
+### User Stories:
+
+1. As a data analyst, I want to analyze the house records dataset and prepare the data for training an ML model to predict the sale price.
+
+2. As a data analyst, I need to build an ML model that can accurately predict the house prices for the 6 newly refurbished houses my friend plans to sell.
+
+3. As a data analyst, I want to ensure that the ML system can reliably predict the summed sale price of the 6 houses by incorporating the individual house price predictions.
+
+4. As a data analyst, I need to explore and evaluate different approaches, including conventional ML and Neural Networks, to establish the relationships between the features and the target variable (sale price).
+
+5. As a data analyst, I will consider changing the ML task from regression to classification if a valid rationale exists, to better address the requirements and nature of the problem.
+
+6. If using conventional ML with libraries like scikit-learn, I will perform extensive hyperparameter optimization for the chosen algorithm to improve the model's performance and accuracy.
+
 
 
 
