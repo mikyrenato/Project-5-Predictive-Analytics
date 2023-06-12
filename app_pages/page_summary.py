@@ -5,7 +5,7 @@ def page_summary_body():
 
     st.write("### Project Summary")
 
-    # text based on README file - "Dataset Content" section
+
     st.info(
         "**Project Dataset**\n"
         "* The dataset is sourced from [Kaggle]"
@@ -26,7 +26,7 @@ def page_summary_body():
         "of 89,540 people. \n\n"
     )
 
-    # "Business Requirements" section
+
     st.success(
         "The project has 2 business requirements:\n"
         "* 1 - My friend is interested in discovering how exactly house "
@@ -39,8 +39,7 @@ def page_summary_body():
         "buy or sell in the future."
     )
 
-    # Link to README file, so the users can have access to
-    # full project documentation
+
     st.warning(
         "For additional information, please visit and **read** the "
         "[Project README file.]"
