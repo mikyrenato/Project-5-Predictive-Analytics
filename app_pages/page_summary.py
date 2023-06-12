@@ -11,7 +11,7 @@ def page_summary_body():
         "* The dataset is sourced from [Kaggle]"
         "(https://www.kaggle.com/codeinstitute/housing-prices-data) "
         "being provided by Code Institute.\n"
-        "* The dataset hosts 1.461 rows and represents housing "
+        "* The dataset hosts 1.460 rows and represents housing "
         "records from Ames, Iowa. \n"
         "* The dataset typically contains a house profile, "
         "i.e., Floor Area, Basement, Garage, Kitchen, Lot, Porch, "
