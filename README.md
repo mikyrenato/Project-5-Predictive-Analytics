@@ -205,7 +205,7 @@ For more details, please refer to the live app linked at the top of the readme/d
 
 1. **What are the business requirements?**
 
-### Business Requirement 1:
+ Business Requirement:
 
 - The primary objective is to analyze the correlation between house attributes and sale prices.
 - It is important to visualize the correlation variables in relation to the sale price.
