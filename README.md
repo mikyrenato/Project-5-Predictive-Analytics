@@ -362,11 +362,16 @@ $ git clone [repository URL]
 - The App live link is: [HERE!](https://project-5-predictive-analytics.herokuapp.com/)
 - The project was deployed to Heroku using the following steps.
 1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-7. Press Enter to create your local clone.
+![1](images/h1.PNG)
+![2](images/h2.PNG)
+3. At the Deploy tab, select GitHub as the deployment method.
+![3](images/h3.PNG)
+5. Select your repository name and click Search. Once it is found, click Connect.
+![4](images/h4.PNG)
+7. Select the branch you want to deploy, then click Deploy Branch.
+![5](images/h5.PNG)
+9. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
+10. Press Enter to create your local clone.
 
 ---
 ## Conclusion
