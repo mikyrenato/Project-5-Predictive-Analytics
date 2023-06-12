@@ -6,7 +6,7 @@ from src.predictive_analysis_ui import predict_sale_price
 
 def page_price_predictor_body():
 
-    # load predict sale price files
+
     ver = 'v2'
     path = f"outputs/ml_pipeline/predict_saleprice/{ver}"
 
@@ -27,7 +27,7 @@ def page_price_predictor_body():
         "houses and their respective sale price predictions."
     )
 
-    # Add a button to choose between loading all houses or only the first 6 houses
+
     load_all_houses = st.button("Load All Houses")
     if load_all_houses:
         num_houses = None
@@ -43,7 +43,7 @@ def page_price_predictor_body():
     )
     st.write("---")
 
-    # Generate Live Data
+
     check_var = False
     if check_var:
         check_variables_for_UI(price_features)
@@ -60,7 +60,7 @@ def page_price_predictor_body():
     )
     X_live = DrawInputsWidgets()
 
-    # predict on live data
+
     if st.button("Run Predictive Analysis"):
         price_prediction = predict_sale_price(
             X_live, price_features, price_pipe
