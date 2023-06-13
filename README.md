@@ -371,7 +371,6 @@ $ git clone [repository URL]
 7. Select the branch you want to deploy, then click Deploy Branch.
 ![5](images/h5.PNG)
 9. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-10. Press Enter to create your local clone.
 
 ---
 ## Conclusion
