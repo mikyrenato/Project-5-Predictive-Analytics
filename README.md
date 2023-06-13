@@ -361,7 +361,7 @@ $ git clone [repository URL]
 
 - The App live link is: [HERE!](https://project-5-predictive-analytics.herokuapp.com/)
 - The project was deployed to Heroku using the following steps.
-1. Log in to Heroku and create an App
+1. Log in to Heroku and create an App: New -> Create app
 ![1](images/h1.PNG)
 ![2](images/h2.PNG)
 2. At the Deploy tab, select GitHub as the deployment method.
