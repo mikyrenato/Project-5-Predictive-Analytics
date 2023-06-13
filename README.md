@@ -364,13 +364,13 @@ $ git clone [repository URL]
 1. Log in to Heroku and create an App
 ![1](images/h1.PNG)
 ![2](images/h2.PNG)
-3. At the Deploy tab, select GitHub as the deployment method.
+2. At the Deploy tab, select GitHub as the deployment method.
 ![3](images/h3.PNG)
-5. Select your repository name and click Search. Once it is found, click Connect.
+3. Select your repository name and click Search. Once it is found, click Connect.
 ![4](images/h4.PNG)
-7. Select the branch you want to deploy, then click Deploy Branch.
+4. Select the branch you want to deploy, then click Deploy Branch.
 ![5](images/h5.PNG)
-9. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
+5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
 
 ---
 ## Conclusion
