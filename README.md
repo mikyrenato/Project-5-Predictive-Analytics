@@ -314,7 +314,7 @@ Page 5: ML: House Sale Price Prediction
 - Before
 ![testb](images/testb.PNG)
 - After
-![testa](images/testa.PNG
+![testa](images/testa.PNG)
 
 ## Unfixed Errors
 - No known errors have been found.
